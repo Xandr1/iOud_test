@@ -1,0 +1,46 @@
+@media screen and (max-width:1200px) {
+.nav__item_logo {
+    margin: 20px 0 0 2vw;
+  }
+
+.info {
+    margin: 40px 0 0 10vw;
+
+    &__text {
+        margin-top: 0;
+    }
+
+    &__shopping {
+        width: 204px;
+        height: 60px;
+        padding: 16px 56px;
+    }
+  }  
+
+  .advantages {
+    width: 100vw;
+    margin-left: 0;
+
+    &__item {
+        width: 33.33vw;
+    }
+  }
+
+  .about {
+    height: 720px;
+
+    &__columns {
+        flex-direction: column;
+    }
+
+    &__leads {
+        margin-left: 40px;
+    }
+  }
+}
+
+@media screen and (max-width:860px) {
+    .nav__item_logo {
+        display: none;
+    }
+}

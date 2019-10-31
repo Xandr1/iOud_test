@@ -1,0 +1,89 @@
+.about {
+    margin-top: 347px;
+    height: 299px;
+    color: #FFFFFF;
+    background: #221E1A;
+    position: relative;
+
+    &__columns {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        font-weight: 300;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    &__heading {
+        font-size: 18px;
+        margin: 40px 0 0 40px;
+
+        &_form {
+            margin: 40px 0 10px 0;
+        }
+    }
+
+    &__icon {
+        margin: 15px 15px 0 0;
+    }
+
+    &__link {
+        font-weight: 300;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 1.7em;
+    }
+
+    &__button {
+        width: 116px;
+        height: 50px;
+        background: #221E1A;
+        font-size: 18px;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+    }
+
+    &__rights {
+        width: 356px;
+        display: block;
+        margin: 40px auto;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    &__input {
+        height: 29px;
+        margin-top: 15px;
+        background-color: #221E1A;
+        color: #FFFFFF;
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+
+        &__textarea {
+            color: #FFFFFF;
+            box-sizing: border-box;
+        }
+
+        &::placeholder {
+            font-size: 16px;
+            font-weight: 300;
+            color: #FFFFFF;
+        }
+    }
+
+    &__button {
+        margin-top: 15px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
